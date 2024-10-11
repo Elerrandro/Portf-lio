@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Em Andamento</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <nav class="container">
+                <div class="logo"> RESG </div>
+                <ul class="nav-links">
+                    <li> <a href="#sobre"> Sobre </a> </li>
+                    <li> <a href="#skills"> Skills </a> </li>
+                    <li> <a href="#projetos"> Projetos </a> </li>
+                    <li> <a href="#contato"> Contato </a> </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="sobre" class="dev container fade-in">
+                <div class="dev-texto">
+                    <h1> Raimundo Elerrandro Sousa Gomes </h1>
+                    <p> Eu estou cursando Técnico em informática na Estácio supercampus maracanã.</p>
+                    <a class="botao-de-contato" href="#contato"> Entre em contato </a>
+                </div> 
+                <div class="dev-imagem">
+                    <img src="Imagem1.png" class="imagem-perfil">
+                </div>
+            </section>
+
+            <section id="skills" class="container fade-in">
+                <h2> Skills </h2>
+                <div class="skills-grid">
+                    <div class="skills-item">
+                        <div class="skills-icon">&#128187;</div>
+                        <h3>Frontend</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="skills-item">
+                        <div class="skills-icon">&#128295;</div>
+                        <h3>backend</h3>
+                        <p>Python</p>
+                    </div>
+                    <div class="skills-item">
+                        <div class="skills-icon">&#128202;</div>
+                        <h3>Banco de dados</h3>
+                        <p>PostgreeSQL</p>
+                    </div>
+                    <div class="skills-item">
+                        <div class="skills-icon">&#128736;</div>
+                        <h3>Ferramentas</h3>
+                        <p>Git</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projetos" class="container fade-in">
+                <h2> Projetos </h2>
+                <div class="projetos-grid">
+                    <div class="projetos-card">
+                        <h3 class="titulo-projeto"> Site Bio Tech</h3>
+                        <p>Site apresentado no primeiro seminario da Estacio</p>
+                        <div class="projetos-tags">
+                            <span> Wix </span>
+                            <span> HTML </span>
+                            <span> CSS </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contato" class="contato fade-in">
+                <h2 class="titulo-contato"> Contate-me! </h2>
+                <form class="contato-form">
+                    <div class="grupo-formulario">
+                        <label for="nome"> Nome </label>
+                        <input id="nome" name="nome" required>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="email"> Email </label>
+                        <input id="email" name="email" required>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="mensagem"> Mensagem </label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+                    <button type="submit"> Mandar Mensagem </button>
+                </form>
+            </section>
+
+            <footer>
+                <ul class="icones-footer">
+                    <li>&#128187;</li>
+                    <li>&#128101;</li>
+                    <li>&#128038;</li>
+                </ul>
+                <p>&copy; 2024 Raimundo Elerrandro Sousa Gomes, Todos os direitos reservados</p>
+            </footer>
+        </main>
+    </body>
+</html>
